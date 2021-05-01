@@ -1,0 +1,17 @@
+[package]
+name = "catdex"
+version = "0.1.0"
+authors = ["minhkhiemm <vominhkhiem212@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-files = "0.5.0"
+actix-web = "3.3.2"
+diesel = { version = "1.4.6", features = ["postgres", "r2d2"] }
+dotenv = "0.15.0"
+handlebars = { version = "3.5.4", features = ["dir_source"] }
+r2d2 = "0.8.9"
+serde = "1.0.125"
+serde_json = "1.0.64"
